@@ -88,17 +88,14 @@ Cybersecurity professional specializing in **incident response**, **digital fore
     - Comprehensive framework analysis and threat modeling
     - Risk ratings and enterprise security assessment
 
-11. **[Risk & Vulnerability Report](https://github.com/VioletFigueroa/vulnerability-assessment-report)**
-    - Integrated risk and vulnerability analysis documentation
-
 ---
 
 ### 🔵 Security Operations & Monitoring
-12. **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)**
+11. **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)**
     - Comprehensive network assessment with nmap and Wireshark
     - PCAP analysis and detailed security findings
 
-13. **[Log Analysis & Monitoring Automation](https://github.com/VioletFigueroa/log-analysis-monitoring-automation)**
+12. **[Log Analysis & Monitoring Automation](https://github.com/VioletFigueroa/log-analysis-monitoring-automation)**
     - Automated monitoring workflow combining Bash and Python
     - Real-time security event detection and analysis
 
@@ -106,7 +103,7 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 
 ## 📊 Portfolio Highlights
 
-- **13 Professional Projects** - All with comprehensive documentation
+- **12 Professional Projects** - All with comprehensive documentation
 - **100% Optimized** - Professional badges, SEO keywords, GitHub topics
 - **Production Ready** - v1.0.0 releases, security policies, contributing guidelines
 - **Complete Coverage** - Spans incident response, forensics, compliance, and operations
