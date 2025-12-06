@@ -10,7 +10,7 @@
 
 ## 🛡️ About Me
 
-Cybersecurity professional specializing in **incident response**, **digital forensics**, and **security architecture**. I investigate complex security incidents, analyze threat indicators, and develop comprehensive security frameworks. My expertise spans breach investigation, risk management, vulnerability assessment, and compliance frameworks (ISO 27001, NIST).
+Comptia Security + Certified Cybersecurity professional specializing in **incident response**, **digital forensics**, and **security architecture**. I investigate complex security incidents, analyze threat indicators, and develop comprehensive security frameworks. My expertise spans breach investigation, risk management, vulnerability assessment, and compliance frameworks (ISO 27001, NIST).
 
 **Passionate about:** Protecting organizations through thorough investigation, proactive security measures, and evidence-based remediation strategies.
 
