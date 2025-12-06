@@ -88,7 +88,7 @@ Cybersecurity professional specializing in **incident response**, **digital fore
     - Comprehensive framework analysis and threat modeling
     - Risk ratings and enterprise security assessment
 
-11. **[Risk & Vulnerability Report](https://github.com/VioletFigueroa/risk-vulnerability-report)**
+11. **[Risk & Vulnerability Report](https://github.com/VioletFigueroa/vulnerability-assessment-report)**
     - Integrated risk and vulnerability analysis documentation
 
 ---
