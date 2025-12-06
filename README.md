@@ -46,22 +46,24 @@ Cybersecurity professional specializing in **incident response**, **digital fore
    - Complete timeline analysis, lateral movement tracing, remediation recommendations
    - Business-focused incident containment and recovery strategy
 
-2. **[Digital Forensics Case Study](https://github.com/VioletFigueroa/Digital-Forensics-Case-Study)** ⭐⭐⭐
+2. **[Digital Forensics Case Study](https://github.com/VioletFigueroa/Digital-Forensics-Case-Study)**
    - Malware analysis and threat hunting documentation
    - Forensic investigation procedures and findings
 
-3. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)** ⭐⭐⭐
+3. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)**
    - Step-by-step playbooks for critical security incidents
    - Data breach response procedures and incident protocols
 
-4. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)** ⭐⭐⭐
+4. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)**
+   - Digital forensics investigation into major data breach
+   - Evidence analysis, containment strategies, remediation timeline
    - Digital forensics investigation into major data breach
    - Evidence analysis, containment strategies, remediation timeline
 
 ---
 
 ### 🟡 Security Compliance & Risk Management
-5. **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)**
+5. **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)** ⭐⭐⭐⭐
    - Comprehensive asset assessment and vulnerability analysis
    - ISO 27001 compliant control mapping and risk evaluation
 
@@ -69,7 +71,7 @@ Cybersecurity professional specializing in **incident response**, **digital fore
    - Complete security policy framework with TLP classifications
    - Implementation procedures and incident response integration
 
-7. **[Security Architecture Assessment](https://github.com/VioletFigueroa/Security-Architecture-Assessment)**
+7. **[Security Architecture Assessment](https://github.com/VioletFigueroa/Security-Architecture-Assessment)** ⭐⭐⭐⭐
    - NIST compliance review and architectural analysis
    - Security controls assessment
 
@@ -91,7 +93,7 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 ---
 
 ### 🔵 Security Operations & Monitoring
-11. **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)**
+11. **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)** ⭐⭐⭐⭐
     - Comprehensive network assessment with nmap and Wireshark
     - PCAP analysis and detailed security findings
 
