@@ -117,7 +117,7 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 |----------|----------|-------|
 | **Incident Response** | 4 projects | Breach investigation, forensics, playbooks |
 | **Compliance & Risk** | 4 projects | ISO 27001, NIST, policies, architecture |
-| **Vulnerability & Assessment** | 3 projects | VA reports, framework, risk analysis |
+| **Vulnerability & Assessment** | 2 projects | VA reports, framework, risk analysis |
 | **Operations** | 2 projects | Network analysis, log monitoring |
 
 ---
