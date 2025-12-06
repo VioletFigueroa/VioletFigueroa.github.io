@@ -40,10 +40,10 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 
 ## 📂 Professional Portfolio (most impressive first)
 
-1. ⭐⭐⭐⭐ **[Premium House Lights: The Heist](https://github.com/VioletFigueroa/Premium-House-Lights)** — Full-scope DFIR: file-upload exploit, lateral movement mapped, exec + technical reporting.
-2. ⭐⭐⭐⭐ **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)** — ISO-aligned risk register, controls, and roadmap with quantified scoring.
-3. ⭐⭐⭐⭐ **[Security Architecture Assessment](https://github.com/VioletFigueroa/Security-Architecture-Assessment)** — 18 critical control gaps, phased remediation tied to business impact.
-4. ⭐⭐⭐⭐ **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)** — Nmap/Wireshark-led assessment, flat-network risk, segmentation plan.
+1. ⭐ **[Premium House Lights: The Heist](https://github.com/VioletFigueroa/Premium-House-Lights)** — Full-scope DFIR: file-upload exploit, lateral movement mapped, exec + technical reporting.
+2. ⭐ **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)** — ISO-aligned risk register, controls, and roadmap with quantified scoring.
+3. ⭐ **[Security Architecture Assessment](https://github.com/VioletFigueroa/Security-Architecture-Assessment)** — 18 critical control gaps, phased remediation tied to business impact.
+4. ⭐ **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)** — Nmap/Wireshark-led assessment, flat-network risk, segmentation plan.
 5. **[Log Analysis & Monitoring Automation](https://github.com/VioletFigueroa/log-analysis-monitoring-automation)** — Automated log collection + regex alerting with reporting.
 6. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)** — Breach timeline, root cause, remediation steps.
 7. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)** — Ready-to-use IR roles, comms, and checklists.
@@ -52,65 +52,6 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 10. **[Vulnerability Assessment Framework](https://github.com/VioletFigueroa/vulnerability-assessment-framework)** — Critical/high findings with remediation sequence.
 11. **[Cybersecurity Best Practices Guide](https://github.com/VioletFigueroa/cybersecurity-best-practices-guide)** — Actionable enterprise security best practices.
 12. **[TLP Artifacts & Security Policies](https://github.com/VioletFigueroa/security-policies-procedures-tlp)** — TLP-classified policy set with procedures.
-
-### 🔴 Incident Response & Investigation
-1. **[Premium House Lights Breach Investigation](https://github.com/VioletFigueroa/Premium-House-Lights)** ⭐⭐⭐⭐
-   - Full-scope digital forensics and incident response investigation
-   - Complete timeline analysis, lateral movement tracing, remediation recommendations
-   - Business-focused incident containment and recovery strategy
-
-2. **[Digital Forensics Case Study](https://github.com/VioletFigueroa/Digital-Forensics-Case-Study)**
-   - Malware analysis and threat hunting documentation
-   - Forensic investigation procedures and findings
-
-3. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)**
-   - Step-by-step playbooks for critical security incidents
-   - Data breach response procedures and incident protocols
-
-4. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)**
-   - Digital forensics investigation into major data breach
-   - Evidence analysis, containment strategies, remediation timeline
-
----
-
-### 🟡 Security Compliance & Risk Management
-5. **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)** ⭐⭐⭐⭐
-   - Comprehensive asset assessment and vulnerability analysis
-   - ISO 27001 compliant control mapping and risk evaluation
-
-6. **[Security Policies & Procedures (TLP Classified)](https://github.com/VioletFigueroa/security-policies-procedures-tlp)**
-   - Complete security policy framework with TLP classifications
-   - Implementation procedures and incident response integration
-
-7. **[Security Architecture Assessment](https://github.com/VioletFigueroa/Security-Architecture-Assessment)** ⭐⭐⭐⭐
-   - NIST compliance review and architectural analysis
-   - Security controls assessment
-
-8. **[Cybersecurity Best Practices Guide](https://github.com/VioletFigueroa/cybersecurity-best-practices-guide)**
-   - Comprehensive security standards and implementation guidance
-   - Industry best practices documentation
-
----
-
-### 🟢 Vulnerability Management & Assessment
-9. **[Vulnerability Assessment Report](https://github.com/VioletFigueroa/vulnerability-assessment-report)**
-   - Detailed vulnerability analysis with CVSS scoring
-   - Severity ratings and prioritized remediation roadmap with evidence logs
-
-10. **[Vulnerability Assessment Framework](https://github.com/VioletFigueroa/vulnerability-assessment-framework)**
-    - Comprehensive framework analysis and threat modeling
-    - Risk ratings and enterprise security assessment
-
----
-
-### 🔵 Security Operations & Monitoring
-11. **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)** ⭐⭐⭐⭐
-    - Comprehensive network assessment with nmap and Wireshark
-    - PCAP analysis and detailed security findings
-
-12. **[Log Analysis & Monitoring Automation](https://github.com/VioletFigueroa/log-analysis-monitoring-automation)**
-    - Automated monitoring workflow combining Bash and Python
-    - Real-time security event detection and analysis
 
 ---
 
