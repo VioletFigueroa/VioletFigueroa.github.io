@@ -41,20 +41,20 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 ## 📂 Professional Portfolio
 
 ### 🔴 Incident Response & Investigation
-1. **[Premium House Lights Breach Investigation](https://github.com/VioletFigueroa/Premium-House-Lights)** ⭐
+1. **[Premium House Lights Breach Investigation](https://github.com/VioletFigueroa/Premium-House-Lights)** ⭐⭐⭐⭐
    - Full-scope digital forensics and incident response investigation
    - Complete timeline analysis, lateral movement tracing, remediation recommendations
    - Business-focused incident containment and recovery strategy
 
-2. **[Digital Forensics Case Study](https://github.com/VioletFigueroa/Digital-Forensics-Case-Study)**
+2. **[Digital Forensics Case Study](https://github.com/VioletFigueroa/Digital-Forensics-Case-Study)** ⭐⭐⭐
    - Malware analysis and threat hunting documentation
    - Forensic investigation procedures and findings
 
-3. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)**
+3. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)** ⭐⭐⭐
    - Step-by-step playbooks for critical security incidents
    - Data breach response procedures and incident protocols
 
-4. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)**
+4. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)** ⭐⭐⭐
    - Digital forensics investigation into major data breach
    - Evidence analysis, containment strategies, remediation timeline
 
