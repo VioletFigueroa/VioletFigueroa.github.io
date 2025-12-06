@@ -154,3 +154,15 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 
 **Latest Update:** December 2025 | **Interview Ready:** Yes ✓
 
+---
+
+## 📜 License
+
+All portfolio projects are licensed under the **Educational License** - designed for educational and learning purposes. See individual project repositories for full license details.
+
+**Summary:**
+- ✅ Educational and learning use
+- ✅ Non-commercial
+- ✅ Attribution required
+- © 2025 Violet Figueroa
+
