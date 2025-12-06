@@ -1,4 +1,4 @@
-# �� Violet Figueroa
+# Violet Figueroa
 
 **Cybersecurity Analyst** | Incident Response Specialist | Digital Forensics Expert
 
