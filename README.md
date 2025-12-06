@@ -38,7 +38,7 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 
 ---
 
-## 📂 Professional Portfolio (most impressive first)
+## 📂 Portfolio
 
 1. ⭐ **[Premium House Lights: The Heist](https://github.com/VioletFigueroa/Premium-House-Lights)** — Full-scope DFIR: file-upload exploit, lateral movement mapped, exec + technical reporting.
 2. ⭐ **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)** — ISO-aligned risk register, controls, and roadmap with quantified scoring.
