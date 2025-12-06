@@ -40,6 +40,22 @@ Cybersecurity professional specializing in **incident response**, **digital fore
 
 ## 📂 Professional Portfolio
 
+### 📜 Portfolio Navigation (fast jump)
+| Project | Key Artifact | Highlight | GitHub |
+| --- | --- | --- | --- |
+| Cyber Best Practices | Project 8 - Cyber Best Practices.pdf | Actionable enterprise best practices | https://github.com/VioletFigueroa/cybersecurity-best-practices-guide |
+| Endpoint Mapping & Secure Architecture | Secure Architecture Report.md | 18 control gaps + phased remediation | https://github.com/VioletFigueroa/Security-Architecture-Assessment |
+| Incident Response Playbooks | Violet Figueroa Playbook for Cat & Box Scenario.pdf | Ready-to-use IR roles/comms/checklists | https://github.com/VioletFigueroa/incident-response-playbooks-procedures |
+| ISO 27001 Risk Management | DHAEI Risk Management Plan.pdf | ISO-aligned risk register + controls | https://github.com/VioletFigueroa/iso27001-risk-management-framework |
+| LifeLabs Data Breach | LifeLabs Data Breach_ Investigative Report.md | Breach timeline, root cause, remediation | https://github.com/VioletFigueroa/data-breach-investigation-forensics |
+| Log Monitoring Workflow | Log Monitoring Workflow.pdf | Automated log collection + regex alerting | https://github.com/VioletFigueroa/log-analysis-monitoring-automation |
+| Network Administration & Forensics | Cybersecurity Executive Summary.pdf | Flat-network risks + segmentation roadmap | https://github.com/VioletFigueroa/network-scanning-analysis-security |
+| Premium House Lights: The Heist | Project 12 - Forensics Report and Documentation.pdf | File-upload exploit, lateral movement mapped | https://github.com/VioletFigueroa/Premium-House-Lights |
+| Risk & Vulnerability Assessment | Report on Risks & Vulnerabilities.pdf | Prioritized remediation roadmap | https://github.com/VioletFigueroa/vulnerability-assessment-report |
+| The Case of the Stolen Szechuan Sauce | Project 10 - Forensics Report and Documentation.md | Insider theft timeline + evidence | https://github.com/VioletFigueroa/Digital-Forensics-Case-Study |
+| TLP Artifacts & Security Policies | Project 7 - Policy Set.pdf | TLP-classified policies + procedures | https://github.com/VioletFigueroa/security-policies-procedures-tlp |
+| Vulnerability Assessment Framework | Vulnerability Assessment Report.pdf | Critical/high findings + remediation sequence | https://github.com/VioletFigueroa/vulnerability-assessment-framework |
+
 ### 🔴 Incident Response & Investigation
 1. **[Premium House Lights Breach Investigation](https://github.com/VioletFigueroa/Premium-House-Lights)** ⭐⭐⭐⭐
    - Full-scope digital forensics and incident response investigation
@@ -55,8 +71,6 @@ Cybersecurity professional specializing in **incident response**, **digital fore
    - Data breach response procedures and incident protocols
 
 4. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)**
-   - Digital forensics investigation into major data breach
-   - Evidence analysis, containment strategies, remediation timeline
    - Digital forensics investigation into major data breach
    - Evidence analysis, containment strategies, remediation timeline
 
