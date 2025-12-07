@@ -68,9 +68,9 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 
 13. ⭐ **[TinyApp - URL Shortener](https://github.com/VioletFigueroa/tinyapp)** — **Authentication & Authorization Security:** bcrypt password hashing, session management, access control enforcement. Demonstrates A07 (Identification & Authentication Failures) prevention.
 
-14. ⭐ **[Tweeter - Twitter Clone](https://github.com/VioletFigueroa/tweeter)** — **XSS Prevention Specialist:** HTML escaping, input validation, safe DOM manipulation. Real-world implementation of A03 (Injection/XSS) mitigation.
+14. **[Tweeter - Twitter Clone](https://github.com/VioletFigueroa/tweeter)** — **XSS Prevention Specialist:** HTML escaping, input validation, safe DOM manipulation. Real-world implementation of A03 (Injection/XSS) mitigation.
 
-15. ⭐ **[LightBnB - Property Rental Platform](https://github.com/VioletFigueroa/lightBnB)** — **SQL Injection Prevention:** Parameterized queries, database security architecture, secure query patterns. Demonstrates A03 (Injection/SQLi) defense.
+15. **[LightBnB - Property Rental Platform](https://github.com/VioletFigueroa/lightBnB)** — **SQL Injection Prevention:** Parameterized queries, database security architecture, secure query patterns. Demonstrates A03 (Injection/SQLi) defense.
 
 16. **[Interview Scheduler - React SPA](https://github.com/VioletFigueroa/interview-scheduler)** — **Client-Side Security:** State management security, error handling, WebSocket authentication, optimistic updates with rollback.
 
