@@ -78,8 +78,6 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 
 18. **[Lotide - JavaScript Utility Library](https://github.com/VioletFigueroa/lotide)** — **Secure Development Practices:** TDD methodology, input validation, type safety, edge case handling, npm package security.
 
-📄 **[Web Dev → AppSec Summary](./WEB_DEV_APPSEC_SUMMARY.md)** — Comprehensive overview mapping development projects to OWASP Top 10 and AppSec skills.
-
 ---
 
 ## 📊 Portfolio Highlights
@@ -122,6 +120,17 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 - **Threat Modeling** - Understanding attack vectors across application layers
 - **Developer Collaboration** - Explaining security to engineering teams
 - **Security Architecture** - Designing secure REST APIs and client applications
+
+### Projects Demonstrating AppSec Skills
+
+| Project | Security Focus | OWASP Coverage | Key Implementation |
+|---------|-----------------|-----------------|-------------------|
+| **TinyApp** | Auth & Authorization | A07 | bcrypt hashing, signed cookies, access control |
+| **Tweeter** | XSS Prevention | A03 | HTML escaping, input validation |
+| **LightBnB** | SQL Injection Prevention | A03 | Parameterized queries, secure DB design |
+| **Interview Scheduler** | Client-Side Security | A04 | State management, WebSocket auth |
+| **Scheduler API** | API Security | A01, A05 | Helmet headers, CORS, environment secrets |
+| **Lotide** | Secure Development | A06 | TDD, input validation, type safety |
 
 ---
 
