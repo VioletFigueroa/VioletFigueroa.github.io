@@ -1,30 +1,75 @@
-Educational License
+Educational Portfolio License
 
-This work is provided for educational and learning purposes.
+Copyright (c) 2025-2026 Violet Figueroa
 
-Copyright (c) 2025 Violet Figueroa
+## Educational Use Statement
 
-Permission is hereby granted to any person obtaining a copy of this work to use, 
-modify, and distribute it for educational, non-commercial purposes only, subject 
-to the following conditions:
+This portfolio and all associated projects are provided for **educational and demonstrational purposes**.
 
-1. The above copyright notice and this permission notice shall be included in all 
-   copies or substantial portions of the work.
+### Permissions
 
-2. This work is provided as-is, without warranty of any kind, express or implied, 
-   including but not limited to the warranties of merchantability, fitness for a 
-   particular purpose and noninfringement.
+You are free to:
+- **View** - Browse and review all portfolio content and code samples
+- **Learn** - Use projects as learning resources for cybersecurity and development concepts
+- **Reference** - Cite projects in academic or professional contexts with proper attribution
+- **Inspire** - Draw inspiration for your own educational projects
 
-3. In no event shall the author be liable for any claim, damages or other liability, 
-   whether in an action of contract, tort or otherwise, arising from, out of or in 
-   connection with the work or the use or other dealings in the work.
+### Conditions
 
-4. The work may not be used for commercial purposes without explicit permission 
-   from the copyright holder.
+**Attribution Required:**
+If you reference, cite, or derive inspiration from these projects:
+- Provide clear attribution to Violet Figueroa
+- Include a link back to the original repository
+- Indicate if modifications were made
 
-5. Any modifications must retain this license and attribute the original author.
+**No Direct Copying:**
+- Do not directly copy projects for submission as your own work
+- Do not use code samples in commercial products without explicit permission
+- Do not claim authorship of projects or derivative works
 
-Educational Use: This portfolio is designed to demonstrate cybersecurity concepts, 
-incident response procedures, risk management frameworks, and security best practices. 
-All content is intended for educational purposes and should be adapted to your 
-organization's specific needs.
+**Educational Context:**
+- All projects are demonstrations of cybersecurity and development concepts
+- Projects are not production-ready without additional security hardening
+- Use at your own risk; no warranties provided
+
+### Restrictions
+
+**Not Permitted:**
+- ❌ Submitting these projects as your own coursework or portfolio
+- ❌ Using code in production environments without proper security review
+- ❌ Commercial use without explicit written permission
+- ❌ Removing or modifying attribution information
+
+**Security Considerations:**
+- 🔒 All security testing was performed in authorized lab environments
+- 🔒 No malicious code or unauthorized access techniques included
+- 🔒 Projects demonstrate defensive security practices
+- 🔒 Responsible disclosure practices followed
+
+### Individual Project Licenses
+
+Some projects may have specific licenses. Please refer to individual project repositories for detailed licensing information:
+
+- Application Security Projects (TinyApp, Tweeter, LightBnB, etc.): May use MIT or similar open-source licenses
+- Cybersecurity Projects: Educational use only unless otherwise specified
+- Documentation & Guides: Creative Commons Attribution-NonCommercial 4.0
+
+### Warranty Disclaimer
+
+THIS PORTFOLIO IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE PORTFOLIO OR THE USE OR OTHER DEALINGS IN THE PORTFOLIO.
+
+### Contact
+
+For licensing inquiries, permissions, or questions:
+
+**Email:** hello@violetfigueroa.com  
+**LinkedIn:** [Violet Figueroa](https://www.linkedin.com/in/violet-figueroa/)  
+**GitHub:** [@VioletFigueroa](https://github.com/VioletFigueroa)
+
+---
+
+**Portfolio URL:** https://violetfigueroa.com  
+**Last Updated:** January 28, 2026  
+**Version:** 1.0.0

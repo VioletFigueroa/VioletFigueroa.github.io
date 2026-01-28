@@ -1,10 +1,16 @@
 # Violet Figueroa
 
+<div align="center">
+
+<img src="violet-figueroa-headshot.jpg" alt="Violet Figueroa - Cybersecurity Professional" width="200" style="border-radius: 10px; margin-bottom: 20px;">
+
 **Cybersecurity Analyst** | Incident Response Specialist | Digital Forensics Expert
 
 [![GitHub followers](https://img.shields.io/github/followers/VioletFigueroa?style=social)](https://github.com/VioletFigueroa)
 [![GitHub Repo stars](https://img.shields.io/github/stars/VioletFigueroa?style=social)](https://github.com/VioletFigueroa)
 ![Profile views](https://komarev.com/ghpvc/?username=VioletFigueroa&color=blueviolet)
+
+</div>
 
 ---
 
@@ -157,13 +163,20 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 
 ---
 
-## 📫 Let's Connect
+## 📫 Contact Information
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/violet-figueroa/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/violet-figueroa/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:hello@violetfigueroa.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/VioletFigueroa)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome)](https://violetfigueroa.com)
 
 </div>
+
+**Professional Email:** hello@violetfigueroa.com  
+**Location:** Vancouver, British Columbia, Canada  
+**Available For:** Full-time cybersecurity roles (Incident Response, Application Security, Digital Forensics)
 
 ---
 
@@ -172,11 +185,11 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 - 🔗 **All Projects:** https://github.com/VioletFigueroa?tab=repositories
 - 📂 **Pinned Projects:** Check my profile pins for featured work
 - 📖 **Documentation:** See individual project READMEs for detailed documentation
-- 🔒 **Security:** See [SECURITY.md](./SECURITY.md) in project repos for responsible disclosure
+- 🔒 **Security:** See [SECURITY.md](./SECURITY.md) for responsible disclosure policy
 
 ---
 
-**Latest Update:** December 2025 | **Interview Ready:** Yes ✓
+**Latest Update:** January 2026 | **Interview Ready:** Yes ✓
 
 ---
 
@@ -185,4 +198,3 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 This portfolio is licensed under the **Educational License**. See [LICENSE](./LICENSE) file for full details.
 
 All projects are for educational and learning purposes. See individual project repositories for their specific license information.
-
