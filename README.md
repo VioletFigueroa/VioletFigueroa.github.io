@@ -173,7 +173,7 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/VioletFigueroa)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome)](https://violetfigueroa.github.io/VioletFigueroa/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome)](https://violetfigueroa.github.io)
 
 </div>
 
