@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="violet-figueroa-headshot.jpg" alt="Violet Figueroa - Cybersecurity Professional" width="200" style="border-radius: 10px; margin-bottom: 20px;">
+<img src="https://avatars.githubusercontent.com/u/37633848?v=4" alt="Violet Figueroa - Cybersecurity Professional" width="200" style="border-radius: 10px; margin-bottom: 20px;">
 
 **Cybersecurity Analyst** | Incident Response Specialist | Digital Forensics Expert
 
