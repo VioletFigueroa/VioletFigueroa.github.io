@@ -168,9 +168,12 @@ Comptia Security + Certified Cybersecurity professional specializing in **incide
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/violet-figueroa/)
+
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:hello@violetfigueroa.com)
+
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/VioletFigueroa)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome)](https://violetfigueroa.com)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome)](https://violetfigueroa.github.io/VioletFigueroa/)
 
 </div>
 
