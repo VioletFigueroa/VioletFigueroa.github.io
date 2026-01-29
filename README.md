@@ -1,195 +1,213 @@
-# Violet Figueroa
+# Violet Figueroa | Security Portfolio Website
 
-<div align="center">
+Welcome to the source repository for my GitHub Pages security portfolio site deployed at **[violetfigueroa.github.io](https://violetfigueroa.github.io/)**
 
-<img src="https://avatars.githubusercontent.com/u/37633848?v=4" alt="Violet Figueroa - Cybersecurity Professional" width="200" style="border-radius: 10px; margin-bottom: 20px;">
+## 🎯 About This Site
 
-**Cybersecurity Analyst** | Incident Response Specialist | Digital Forensics Expert
+This repository contains the HTML/CSS/JavaScript source for my professional cybersecurity portfolio. It showcases:
 
-[![GitHub followers](https://img.shields.io/github/followers/VioletFigueroa?style=social)](https://github.com/VioletFigueroa) [![GitHub Repo stars](https://img.shields.io/github/stars/VioletFigueroa?style=social)](https://github.com/VioletFigueroa) ![Profile views](https://komarev.com/ghpvc/?username=VioletFigueroa&color=blueviolet)
+- **Real-world incident response & digital forensics projects**
+- **Vulnerability assessment & risk management case studies**
+- **Application security (OWASP Top 10) demonstrations**
+- **Network security & infrastructure analysis work**
+- **Professional experience & technical capabilities**
 
-</div>
+The site is fully responsive, accessible (WCAG 2.1 compliant), and features both light and dark mode themes.
 
----
+## 🚀 Quick Start
 
-## 🛡️ About Me
+This site is automatically deployed via GitHub Pages. Any changes pushed to the `main` branch are live at:
+- **https://violetfigueroa.github.io/**
 
-Comptia Security + Certified Cybersecurity professional specializing in **incident response**, **digital forensics**, **security architecture**, and **application security**. I investigate complex security incidents, analyze threat indicators, and develop comprehensive security frameworks. My expertise spans breach investigation, risk management, vulnerability assessment, secure software development, and compliance frameworks (ISO 27001, NIST).
+### Local Development
 
-**Unique Background:** Full-stack web development experience (React, Node.js, Express, PostgreSQL) combined with cybersecurity expertise enables me to secure applications from the ground up. I understand how developers think, how applications are built, and where vulnerabilities are introduced—making me effective in AppSec code review, security testing, and developer collaboration.
+To work on the site locally:
 
-**Passionate about:** Protecting organizations through thorough investigation, proactive security measures, secure development practices, and evidence-based remediation strategies.
+```bash
+# Clone the repository
+git clone https://github.com/VioletFigueroa/VioletFigueroa.github.io.git
+cd VioletFigueroa.github.io
 
----
+# Open in your browser
+open index.html
+# or
+firefox index.html
+```
 
-## 🔧 Technical Expertise
+No build process is required—the site is static HTML/CSS/JavaScript.
 
-### Security Frameworks & Standards
-- **Compliance:** ISO 27001, NIST Cybersecurity Framework, NIST SP 800-53
-- **Methodologies:** MITRE ATT&CK, TLP (Traffic Light Protocol), Threat Modeling, Risk Assessment
-- **Practices:** Incident Response, Breach Investigation, Evidence Preservation, Forensic Analysis
+## 📁 Repository Structure
 
-### Core Competencies
-- **Application Security:** Secure code review, OWASP Top 10 mitigation, security testing, developer training
-- **Secure Development:** Authentication/authorization implementation, input validation, SQL injection prevention, XSS mitigation
-- **Incident Response:** Investigation, containment, eradication, recovery
-- **Digital Forensics:** Evidence collection, timeline analysis, malware analysis, threat hunting
-- **Vulnerability Management:** Assessment, CVSS scoring, remediation planning
-- **Security Architecture:** Policy development, control mapping, compliance review
-- **Log Analysis & Monitoring:** SIEM deployment, security event detection, automation
+```
+.
+├── index.html              # Main portfolio site (home page)
+├── README.md               # This file
+├── LICENSE                 # License information
+├── SECURITY.md             # Security & responsible disclosure
+└── assets/                 # Optional: Future images, additional CSS, etc.
+    └── (Currently in index.html as single-file design)
+```
 
-### Technical Tools & Technologies
-- **Application Security:** Static/Dynamic analysis, security testing frameworks, threat modeling
-- **Development Stack:** JavaScript/Node.js, React, Express, PostgreSQL, REST APIs
-- **Security Libraries:** bcrypt, Helmet, CORS, parameterized queries, WebSocket security
-- **Analysis Tools:** nmap, Wireshark, forensic investigation platforms
-- **Scripting:** Bash, Python (automation, log analysis)
-- **Security Operations:** SIEM systems, log monitoring, threat detection
-- **Methodologies:** Penetration testing, network analysis, breach investigation
+## 🛠️ Technical Stack
 
----
+- **HTML5** – Semantic markup and accessibility
+- **CSS3** – Modern responsive design with CSS variables
+- **JavaScript (ES6+)** – Theme toggle, smooth interactions
+- **Accessibility** – WCAG 2.1 compliant, keyboard navigation
+- **Performance** – Single-file architecture, zero external dependencies
+- **Dark Mode** – Automatic detection + manual override with localStorage
 
-## 📂 Portfolio
+## 🎨 Features
 
-### 🛡️ Cybersecurity Operations & Forensics
+### Responsive Design
+- Mobile-first approach
+- Desktop, tablet, and mobile optimized
+- Flexible grid layouts using CSS Grid
 
-1. ⭐ **[Premium House Lights: The Heist](https://github.com/VioletFigueroa/Premium-House-Lights)** — Full-scope DFIR: file-upload exploit, lateral movement mapped, exec + technical reporting.
-2. ⭐ **[ISO 27001 Risk Management Framework](https://github.com/VioletFigueroa/iso27001-risk-management-framework)** — ISO-aligned risk register, controls, and roadmap with quantified scoring.
-3. ⭐ **[Security Architecture Assessment](https://github.com/VioletFigueroa/Security-Architecture-Assessment)** — 18 critical control gaps, phased remediation tied to business impact.
-4. ⭐ **[Network Scanning & Security Analysis](https://github.com/VioletFigueroa/network-scanning-analysis-security)** — Nmap/Wireshark-led assessment, flat-network risk, segmentation plan.
-5. **[Log Analysis & Monitoring Automation](https://github.com/VioletFigueroa/log-analysis-monitoring-automation)** — Automated log collection + regex alerting with reporting.
-6. **[LifeLabs Data Breach Investigation](https://github.com/VioletFigueroa/data-breach-investigation-forensics)** — Breach timeline, root cause, remediation steps.
-7. **[Incident Response Playbooks & Procedures](https://github.com/VioletFigueroa/incident-response-playbooks-procedures)** — Ready-to-use IR roles, comms, and checklists.
-8. **[The Case of the Stolen Szechuan Sauce](https://github.com/VioletFigueroa/Digital-Forensics-Case-Study)** — Insider theft timeline with forensic evidence.
-9. **[Risk & Vulnerability Assessment](https://github.com/VioletFigueroa/vulnerability-assessment-report)** — Prioritized remediation roadmap and impact notes.
-10. **[Vulnerability Assessment Framework](https://github.com/VioletFigueroa/vulnerability-assessment-framework)** — Critical/high findings with remediation sequence.
-11. **[Cybersecurity Best Practices Guide](https://github.com/VioletFigueroa/cybersecurity-best-practices-guide)** — Actionable enterprise security best practices.
-12. **[TLP Artifacts & Security Policies](https://github.com/VioletFigueroa/security-policies-procedures-tlp)** — TLP-classified policy set with procedures.
+### Accessibility
+- Semantic HTML structure
+- WCAG 2.1 Level AA compliant
+- Keyboard navigation support
+- Focus indicators visible
+- Screen reader compatible
+- High color contrast ratios
 
-### 🔒 Application Security & Secure Development
+### Dark Mode
+- System preference detection
+- Manual theme toggle
+- Persistent user preference (localStorage)
+- Smooth transitions between themes
 
-**Web Development Projects with Security Focus** - Full-stack applications demonstrating OWASP Top 10 mitigation and secure coding practices:
+### Project Showcase
+- Grid-based project cards
+- Tool/technology tags
+- Direct links to GitHub projects
+- Project type categorization
+- Hover interactions
 
-13. ⭐ **[TinyApp - URL Shortener](https://github.com/VioletFigueroa/tinyapp)** — **Authentication & Authorization Security:** bcrypt password hashing, session management, access control enforcement. Demonstrates A07 (Identification & Authentication Failures) prevention.
+## 📊 Content Sections
 
-14. **[Tweeter - Twitter Clone](https://github.com/VioletFigueroa/tweeter)** — **XSS Prevention Specialist:** HTML escaping, input validation, safe DOM manipulation. Real-world implementation of A03 (Injection/XSS) mitigation.
+1. **Navigation** – Links to all sections, theme toggle
+2. **Hero Section** – Introduction and call-to-action buttons
+3. **Experience** – Professional background at Accessible Places
+4. **Featured Projects** – Incident response, forensics, DFIR
+5. **Vulnerability & Risk Management** – Security architecture, assessments
+6. **Application Security** – OWASP Top 10 demonstrations
+7. **Network Security** – Infrastructure and analysis
+8. **Technical Capabilities** – Skills demonstrated through projects
+9. **Contact** – Links to email, GitHub, LinkedIn, main portfolio
 
-15. **[LightBnB - Property Rental Platform](https://github.com/VioletFigueroa/lightBnB)** — **SQL Injection Prevention:** Parameterized queries, database security architecture, secure query patterns. Demonstrates A03 (Injection/SQLi) defense.
+## 🔗 Links & Resources
 
-16. **[Interview Scheduler - React SPA](https://github.com/VioletFigueroa/interview-scheduler)** — **Client-Side Security:** State management security, error handling, WebSocket authentication, optimistic updates with rollback.
+- **Main Portfolio Profile:** [github.com/VioletFigueroa](https://github.com/VioletFigueroa)
+- **GitHub Profile README:** [VioletFigueroa/VioletFigueroa](https://github.com/VioletFigueroa/VioletFigueroa)
+- **Featured Projects:** See portfolio site for links to all GitHub repositories
+- **Professional Links:**
+  - LinkedIn: [linkedin.com/in/violet-figueroa](https://www.linkedin.com/in/violet-figueroa/)
+  - Email: [violet@violetfigueroa.com](mailto:violet@violetfigueroa.com)
 
-17. **[Scheduler API - REST Backend](https://github.com/VioletFigueroa/scheduler-api)** — **API Security Architecture:** Helmet security headers, CORS configuration, environment-based secrets, WebSocket security, error disclosure prevention.
+## 🔒 Security & Responsible Disclosure
 
-18. **[Lotide - JavaScript Utility Library](https://github.com/VioletFigueroa/lotide)** — **Secure Development Practices:** TDD methodology, input validation, type safety, edge case handling, npm package security.
-
----
-
-## 📊 Portfolio Highlights
-
-- **18 Professional Projects** - Comprehensive security and development portfolio
-- **6 Application Security Projects** - OWASP Top 10 mitigation in production code
-- **12 Cybersecurity Projects** - Incident response, forensics, compliance, operations
-- **100% Optimized** - Professional badges, SEO keywords, GitHub topics
-- **Production Ready** - v1.0.0 releases, security policies, contributing guidelines
-- **Complete Coverage** - Full-stack development, AppSec, incident response, forensics, compliance
-- **Real-World Focus** - Case studies, practical security investigations, and functional applications
-
----
-
-## 🎓 Key Projects Overview
-
-| Category | Projects | Focus |
-|----------|----------|-------|
-| **Application Security** | 6 projects | Authentication, XSS/SQLi prevention, API security, secure development |
-| **Incident Response** | 4 projects | Breach investigation, forensics, playbooks |
-| **Compliance & Risk** | 4 projects | ISO 27001, NIST, policies, architecture |
-| **Vulnerability & Assessment** | 2 projects | VA reports, framework, risk analysis |
-| **Operations** | 2 projects | Network analysis, log monitoring |
-
----
-
-## 🔐 Application Security Expertise
-
-### OWASP Top 10 Coverage
-- ✅ **A01: Broken Access Control** - Authorization enforcement (TinyApp)
-- ✅ **A03: Injection** - SQL injection prevention (LightBnB), XSS mitigation (Tweeter)
-- ✅ **A04: Insecure Design** - Secure architecture patterns (Interview Scheduler)
-- ✅ **A05: Security Misconfiguration** - Security headers, CORS (Scheduler API)
-- ✅ **A06: Vulnerable Components** - Dependency management (Lotide)
-- ✅ **A07: Identification & Authentication Failures** - Password hashing, sessions (TinyApp)
-
-### Development Security Skills
-- **Secure Code Review** - Identifying vulnerabilities in JavaScript/Node.js codebases
-- **Security Testing** - Manual testing of auth flows, injection, error handling
-- **Threat Modeling** - Understanding attack vectors across application layers
-- **Developer Collaboration** - Explaining security to engineering teams
-- **Security Architecture** - Designing secure REST APIs and client applications
-
-### Projects Demonstrating AppSec Skills
-
-| Project | Security Focus | OWASP Coverage | Key Implementation |
-|---------|-----------------|-----------------|-------------------|
-| **TinyApp** | Auth & Authorization | A07 | bcrypt hashing, signed cookies, access control |
-| **Tweeter** | XSS Prevention | A03 | HTML escaping, input validation |
-| **LightBnB** | SQL Injection Prevention | A03 | Parameterized queries, secure DB design |
-| **Interview Scheduler** | Client-Side Security | A04 | State management, WebSocket auth |
-| **Scheduler API** | API Security | A01, A05 | Helmet headers, CORS, environment secrets |
-| **Lotide** | Secure Development | A06 | TDD, input validation, type safety |
-
----
-
-## 📈 What I Bring to Your Organization
-
-✅ **Comprehensive Security Knowledge** - From threat detection to remediation  
-✅ **Application Security Expertise** - Secure code review, OWASP Top 10 mitigation, security testing  
-✅ **Full-Stack Development Background** - React, Node.js, Express, PostgreSQL production experience  
-✅ **Incident Response Expertise** - Real-world breach investigation experience  
-✅ **Framework Implementation** - ISO 27001, NIST compliance guidance  
-✅ **Developer Collaboration** - Speak both security and development languages fluently  
-✅ **Technical Depth** - Scripting, tool proficiency, automation capability  
-✅ **Documentation Excellence** - Clear procedures, policies, and playbooks  
-✅ **Professional Approach** - Security-first mindset, attention to detail  
-
-### 🎯 Unique Value Proposition
-
-**Developer-Turned-Security Professional:** Unlike pure security professionals or senior developers learning security, I bring:
-- **Recent full-stack development training** with security-conscious implementation
-- **Hands-on experience** implementing authentication, authorization, input validation, and API security
-- **Code review capability** from a developer's perspective who understands security
-- **Practical security testing** of auth flows, injection vulnerabilities, and error handling
-- **Effective communication** with engineering teams—I've been in their shoes  
-
----
-
-## 📫 Contact Information
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/violet-figueroa/) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:hello@violetfigueroa.com) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/VioletFigueroa) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome)](https://violetfigueroa.github.io)
-
-</div>
-
-**Professional Email:** hello@violetfigueroa.com  
-**Location:** Vancouver, British Columbia, Canada  
-**Available For:** Full-time cybersecurity roles (Incident Response, Application Security, Digital Forensics)
-
----
-
-## 📌 Quick Links
-
-- 🔗 **All Projects:** https://github.com/VioletFigueroa?tab=repositories
-- 📂 **Pinned Projects:** Check my profile pins for featured work
-- 📖 **Documentation:** See individual project READMEs for detailed documentation
-- 🔒 **Security:** See [SECURITY.md](./SECURITY.md) for responsible disclosure policy
-
----
-
-**Latest Update:** January 2026 | **Interview Ready:** Yes ✓
-
----
+See [SECURITY.md](./SECURITY.md) for responsible disclosure policy and security best practices information.
 
 ## 📜 License
 
-This portfolio is licensed under the **Educational License**. See [LICENSE](./LICENSE) file for full details.
+This portfolio site is licensed under the Educational License. See [LICENSE](./LICENSE) for full details.
 
-All projects are for educational and learning purposes. See individual project repositories for their specific license information.
+All featured project work is completed in controlled lab environments with explicit authorization and follows ethical security research practices.
+
+## 🛠️ Customization
+
+### Updating Project Information
+
+Edit `index.html` and update:
+- Project card content (descriptions, links)
+- Experience section details
+- Skills and capabilities
+- Contact information
+
+### Changing Colors
+
+CSS variables in `index.html` `<style>` section:
+
+```css
+:root {
+    --color-primary: #10b981;           /* Primary accent color */
+    --color-primary-hover: #059669;     /* Hover state */
+    --color-background: #ffffff;        /* Light mode background */
+    /* ... more variables ... */
+}
+
+html.dark {
+    /* Dark mode overrides */
+}
+```
+
+### Adding New Sections
+
+1. Add new `<section>` in the `<main>` element
+2. Update navigation links in `<header>`
+3. Assign unique `id` attribute for anchor linking
+4. Use existing class names for consistent styling
+
+## 📱 Browser Support
+
+- Chrome/Chromium (latest 2 versions)
+- Firefox (latest 2 versions)
+- Safari (latest 2 versions)
+- Edge (latest 2 versions)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## ✨ Features & Best Practices
+
+### Performance
+- Single-file design (zero HTTP requests for resources)
+- Minimal CSS
+- No external dependencies
+- Fast loading and rendering
+
+### SEO
+- Semantic HTML structure
+- Descriptive page title
+- Meta viewport for mobile
+- Structured heading hierarchy
+
+### Accessibility
+- ARIA labels where appropriate
+- Focus management
+- Color contrast compliance
+- Keyboard navigation
+- Screen reader optimization
+
+## 🚀 Deployment
+
+This site automatically deploys via GitHub Pages:
+
+1. Push changes to `main` branch
+2. GitHub Pages automatically builds and deploys
+3. Changes live within seconds at https://violetfigueroa.github.io/
+
+### Custom Domain
+
+To use a custom domain, add a `CNAME` file:
+
+```
+violetfigueroa.com
+```
+
+Then update DNS records at your domain registrar (see [GitHub Pages documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)).
+
+## 📧 Contact & Questions
+
+- **Email:** violet@violetfigueroa.com
+- **Phone:** 604.220.5617
+- **LinkedIn:** [linkedin.com/in/violet-figueroa](https://www.linkedin.com/in/violet-figueroa/)
+- **GitHub:** [github.com/VioletFigueroa](https://github.com/VioletFigueroa)
+
+---
+
+**Last Updated:** January 28, 2026
+
+**Interview Ready:** Yes ✓
+
+*Passionate about making cybersecurity more accessible, sustainable, and inclusive. This portfolio demonstrates real-world security expertise through hands-on projects and professional experience.*
