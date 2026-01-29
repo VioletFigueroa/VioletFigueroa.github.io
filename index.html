@@ -12,6 +12,8 @@
             --color-primary: #10b981;
             --color-primary-hover: #059669;
             --color-primary-dark: #047857;
+            --color-violet: #6B46C1;
+            --color-violet-hover: #5B35A1;
             --color-secondary: #6b7280;
             --color-background: #ffffff;
             --color-surface: #f9fafb;
@@ -29,6 +31,8 @@
             --color-primary: #10b981;
             --color-primary-hover: #059669;
             --color-primary-dark: #047857;
+            --color-violet: #E9D5FF;
+            --color-violet-hover: #DDD6FE;
             --color-secondary: #9ca3af;
             --color-background: #111827;
             --color-surface: #1f2937;
@@ -107,8 +111,13 @@
         .logo {
             font-size: 1.25rem;
             font-weight: 600;
-            color: var(--color-primary);
+            color: var(--color-violet);
             white-space: nowrap;
+            transition: color 0.2s ease;
+        }
+
+        .logo:hover {
+            color: var(--color-violet-hover);
         }
 
         nav ul {
@@ -489,6 +498,11 @@
             border-radius: 4px;
         }
 
+        .accessibility-highlight h3 {
+            color: var(--color-accessibility-teal);
+            margin-bottom: 1rem;
+        }
+
         /* Footer */
         footer {
             background-color: var(--color-surface);
@@ -541,7 +555,6 @@
             <span class="logo">Violet Figueroa</span>
             <ul>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#accessibility">Accessibility</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Technical Depth</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -583,7 +596,7 @@
                     <p style="color: var(--color-text-secondary); margin-bottom: 1.5rem;">Led security, IT operations, and web development for a fully distributed 30-endpoint remote organization. Designed and deployed comprehensive security controls across Windows, macOS, and Linux environments with a focus on accessibility integration.</p>
                     
                     <div class="accessibility-highlight">
-                        <strong style="color: var(--color-accessibility-teal); font-size: 1.05rem;">Accessibility-Integrated Security Operations:</strong>
+                        <h3>🌟 Accessibility-Integrated Security Operations</h3>
                         <ul class="experience-bullets" style="margin-top: 0.5rem;">
                             <li>Designed first-in-industry accessibility-integrated incident response procedures with full screen reader compatibility (JAWS, NVDA tested)</li>
                             <li>Created WCAG 2.1 AA compliant security documentation with proper heading hierarchy, descriptive alt text for security diagrams, and keyboard-accessible incident response checklists</li>
@@ -638,119 +651,11 @@
             </div>
         </section>
 
-        <!-- Accessibility & Inclusive Security Section -->
-        <section id="accessibility">
-            <div class="container">
-                <h2>Accessibility &amp; Inclusive Security</h2>
-                <p class="section-subtitle">Pioneering accessibility-integrated security operations and WCAG-compliant security documentation</p>
-
-                <div class="accessibility-highlight" style="margin-bottom: 2rem;">
-                    <p style="color: var(--color-text); font-size: 1.05rem; margin-bottom: 1.5rem;">
-                        <strong>Unique Differentiator:</strong> Only security professional documented to integrate accessibility (WCAG 2.1, screen reader compatibility) into operational security. This rare combination ensures security controls work for everyone, including neurodivergent users and people using assistive technologies.
-                    </p>
-                </div>
-
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">♿</div>
-                        <div class="project-content">
-                            <span class="project-type accessibility-type">Accessibility Leadership</span>
-                            <h3>Accessible Incident Response Procedures</h3>
-                            <p class="project-focus"><strong>First-in-industry accessibility-integrated IR framework</strong></p>
-                            <div class="project-description">
-                                Designed and implemented incident response procedures fully accessible to team members using assistive technologies. All documentation structured with proper heading hierarchy for screen reader navigation. Security diagrams and flowcharts include descriptive alt text. Interactive elements tested with JAWS and NVDA screen readers. Keyboard-accessible incident response checklists enable participation from all team members.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Standards &amp; Impact</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">WCAG 2.1 AA</span>
-                                    <span class="tool-tag">Screen Reader Testing</span>
-                                    <span class="tool-tag">Keyboard Navigation</span>
-                                    <span class="tool-tag">Inclusive Design</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">📚</div>
-                        <div class="project-content">
-                            <span class="project-type accessibility-type">Documentation &amp; Training</span>
-                            <h3>WCAG-Compliant Security Training</h3>
-                            <p class="project-focus"><strong>Accessible security awareness that drives behavior change</strong></p>
-                            <div class="project-description">
-                                Developed comprehensive security awareness training materials compliant with WCAG 2.1 accessibility standards. Delivered sessions with multiple formats supporting visual and audio learning, hands-on examples, and accessible reference documentation. Materials tested with screen readers and assistive technologies. Achieved measurable improvement in user security behavior and threat reporting.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Approach</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">WCAG 2.1 AA</span>
-                                    <span class="tool-tag">Multi-Format Content</span>
-                                    <span class="tool-tag">Assistive Tech Testing</span>
-                                    <span class="tool-tag">User-Centered Design</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">🔐</div>
-                        <div class="project-content">
-                            <span class="project-type accessibility-type">Security Controls</span>
-                            <h3>Accessible Security Controls Implementation</h3>
-                            <p class="project-focus"><strong>Security hardening without sacrificing accessibility</strong></p>
-                            <div class="project-description">
-                                Implemented comprehensive security controls (MFA, EDR, firewall rules, endpoint protection) while maintaining 100% compatibility with assistive technologies. Tested all security implementations with screen readers (JAWS, NVDA) and keyboard-only navigation. Ensured security warnings, alerts, and required actions remain accessible to users with diverse needs. Proved security and accessibility can reinforce each other.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Controls Tested</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">MFA Accessibility</span>
-                                    <span class="tool-tag">EDR Interfaces</span>
-                                    <span class="tool-tag">Alert Systems</span>
-                                    <span class="tool-tag">JAWS/NVDA Testing</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">🎨</div>
-                        <div class="project-content">
-                            <span class="project-type accessibility-type">Brand &amp; Design Systems</span>
-                            <h3>WCAG-Compliant Design System</h3>
-                            <p class="project-focus"><strong>Accessible-first cybersecurity brand identity</strong></p>
-                            <div class="project-description">
-                                Developed professional cybersecurity brand built on accessibility-first principles. All color combinations exceed WCAG 2.1 Level AA standards (4.5:1+ contrast ratios). Full light/dark mode parity with adjusted luminance for optimal readability. 2px solid focus indicators with visible glow effects. Touch targets meet 44×44px minimum. Information never conveyed by color alone. Semantic HTML, ARIA labels, and keyboard navigation throughout.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Accessibility Features</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">WCAG 2.1 AA+</span>
-                                    <span class="tool-tag">4.5:1+ Contrast</span>
-                                    <span class="tool-tag">Keyboard Navigation</span>
-                                    <span class="tool-tag">Screen Reader Support</span>
-                                    <span class="tool-tag">Reduced Motion</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="margin-top: 3rem; text-align: center;">
-                    <h3 style="color: var(--color-text); margin-bottom: 1rem;">Why Accessibility in Security Matters</h3>
-                    <p style="color: var(--color-text-secondary); max-width: 800px; margin: 0 auto; line-height: 1.8;">
-                        Security teams can't afford to exclude anyone. When security tools, documentation, and procedures aren't accessible, organizations create vulnerabilities and lose talented practitioners. I've proven that accessibility and security reinforce each other—accessible security enables full team participation, reduces errors, and ensures everyone can respond effectively to threats.
-                    </p>
-                </div>
-            </div>
-        </section>
-
         <!-- Featured Projects -->
         <section id="projects">
             <div class="container">
                 <h2>Featured Cybersecurity Projects</h2>
-                <p class="section-subtitle">Incident response, digital forensics, and threat analysis</p>
+                <p class="section-subtitle">Incident response, digital forensics, threat analysis, and accessibility-integrated security</p>
 
                 <div class="projects-grid">
                     <!-- Premium House Lights -->
@@ -776,6 +681,29 @@
                             </div>
                             <div class="project-link">
                                 <a href="https://github.com/VioletFigueroa/Premium-House-Lights">View on GitHub →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accessibility-Integrated IR Procedures -->
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">♿</div>
+                        <div class="project-content">
+                            <span class="project-type accessibility-type">Accessibility &amp; Security</span>
+                            <h3>Accessible Incident Response Procedures</h3>
+                            <p class="project-focus"><strong>First-in-industry accessibility-integrated IR framework</strong></p>
+                            <div class="project-description">
+                                Designed and implemented incident response procedures fully accessible to team members using assistive technologies. All documentation structured with proper heading hierarchy for screen reader navigation. Security diagrams include descriptive alt text. Interactive elements tested with JAWS and NVDA screen readers. Keyboard-accessible checklists enable participation from all team members. Demonstrates that security and accessibility reinforce each other.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Standards &amp; Implementation</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">WCAG 2.1 AA</span>
+                                    <span class="tool-tag">Screen Reader Testing</span>
+                                    <span class="tool-tag">Keyboard Navigation</span>
+                                    <span class="tool-tag">NIST 800-61</span>
+                                    <span class="tool-tag">Inclusive Design</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -904,17 +832,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Vulnerability & Risk Management -->
-        <section>
-            <div class="container">
-                <h2>Vulnerability &amp; Risk Management</h2>
-                <p class="section-subtitle">Risk assessment, remediation planning, and compliance frameworks</p>
-
-                <div class="projects-grid">
+                    <!-- Vulnerability Assessment -->
                     <div class="project-card">
                         <div class="project-image">📊</div>
                         <div class="project-content">
@@ -939,155 +858,27 @@
                         </div>
                     </div>
 
-                    <div class="project-card">
-                        <div class="project-image">📋</div>
-                        <div class="project-content">
-                            <span class="project-type">Risk &amp; Compliance</span>
-                            <h3>P5: ISO 27001 Risk Management</h3>
-                            <p class="project-focus"><strong>Risk assessment and control mapping</strong></p>
-                            <div class="project-description">
-                                Performed comprehensive risk management analysis aligned with ISO 27001. Developed risk matrix assessing likelihood and impact. Mapped organizational controls to ISO 27001 requirements. Identified compliance gaps and created remediation strategy to avoid regulatory fines and reputational damage.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Standards</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">ISO 27001</span>
-                                    <span class="tool-tag">Risk Analysis</span>
-                                    <span class="tool-tag">Controls Mapping</span>
-                                </div>
-                            </div>
-                            <div class="project-link">
-                                <a href="https://github.com/VioletFigueroa/iso27001-risk-management-framework">View on GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">🔐</div>
-                        <div class="project-content">
-                            <span class="project-type">Forensics Report</span>
-                            <h3>P10: Forensics Report</h3>
-                            <p class="project-focus"><strong>Forensic investigation and incident reconstruction</strong></p>
-                            <div class="project-description">
-                                Conducted forensic investigation on compromised system, analyzing logs and artifacts to reconstruct incident timeline. Examined memory dumps, disk images, and network traffic. Documented findings in legal-grade report suitable for evidence presentation. Provided actionable intelligence to close security gaps and prevent recurrence.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Methodologies</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">Volatility</span>
-                                    <span class="tool-tag">Autopsy</span>
-                                    <span class="tool-tag">Timeline Analysis</span>
-                                    <span class="tool-tag">Legal Reporting</span>
-                                </div>
-                            </div>
-                            <div class="project-link">
-                                <a href="https://github.com/VioletFigueroa/data-breach-investigation-forensics">View on GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Application Security -->
-        <section>
-            <div class="container">
-                <h2>Application Security &amp; OWASP</h2>
-                <p class="section-subtitle">Secure code review, OWASP Top 10 mitigation, full-stack security</p>
-
-                <div class="projects-grid">
+                    <!-- Application Security Projects -->
                     <div class="project-card">
                         <div class="project-image">🔑</div>
                         <div class="project-content">
-                            <span class="project-type">Authentication &amp; Authorization</span>
+                            <span class="project-type">Application Security</span>
                             <h3>TinyApp – Secure URL Shortener</h3>
-                            <p class="project-focus"><strong>OWASP A07: Identification &amp; Authentication Failures mitigation</strong></p>
+                            <p class="project-focus"><strong>OWASP A07: Authentication &amp; Authorization</strong></p>
                             <div class="project-description">
-                                Built full-stack URL shortener with robust authentication and authorization controls. Implemented bcrypt password hashing and secure session management (cookie-session). Enforced principle of least privilege for resource access. Demonstrates secure user management and data protection compliant with OWASP standards.
+                                Built full-stack URL shortener with robust authentication and authorization controls. Implemented bcrypt password hashing and secure session management. Enforced principle of least privilege for resource access. Demonstrates secure user management and data protection compliant with OWASP standards.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Technologies</div>
                                 <div class="tools-list">
                                     <span class="tool-tag">Node.js</span>
-                                    <span class="tool-tag">Express</span>
                                     <span class="tool-tag">bcrypt</span>
                                     <span class="tool-tag">Session Management</span>
+                                    <span class="tool-tag">OWASP A07</span>
                                 </div>
                             </div>
                             <div class="project-link">
                                 <a href="https://github.com/VioletFigueroa/tinyapp">View on GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">⚠️</div>
-                        <div class="project-content">
-                            <span class="project-type">Input Validation &amp; XSS Prevention</span>
-                            <h3>Tweeter – Social Media Platform</h3>
-                            <p class="project-focus"><strong>OWASP A03: Injection &amp; XSS Prevention</strong></p>
-                            <div class="project-description">
-                                Developed single-page social media application with rigorous input validation and output encoding. Implemented DOM sanitization to prevent XSS attacks. Enforced strict input validation on all user-controllable data. Protects against client-side attacks and session hijacking, mitigating OWASP A03 (Injection).
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Technologies</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">React</span>
-                                    <span class="tool-tag">Input Validation</span>
-                                    <span class="tool-tag">Output Encoding</span>
-                                    <span class="tool-tag">DOM Sanitization</span>
-                                </div>
-                            </div>
-                            <div class="project-link">
-                                <a href="https://github.com/VioletFigueroa/tweeter">View on GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">🗄️</div>
-                        <div class="project-content">
-                            <span class="project-type">Database Security</span>
-                            <h3>LightBnB – Property Rental Platform</h3>
-                            <p class="project-focus"><strong>OWASP A03: SQL Injection Prevention</strong></p>
-                            <div class="project-description">
-                                Designed property rental platform with database security as core principle. Implemented parameterized queries and prepared statements to prevent SQL injection. All database interactions use safe patterns. Prevents unauthorized data access and manipulation through proper input handling.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Technologies</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">Node.js</span>
-                                    <span class="tool-tag">PostgreSQL</span>
-                                    <span class="tool-tag">Parameterized Queries</span>
-                                    <span class="tool-tag">Database Security</span>
-                                </div>
-                            </div>
-                            <div class="project-link">
-                                <a href="https://github.com/VioletFigueroa/lightBnB">View on GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">📅</div>
-                        <div class="project-content">
-                            <span class="project-type">Testing &amp; CI/CD</span>
-                            <h3>Interview Scheduler</h3>
-                            <p class="project-focus"><strong>Security through comprehensive testing</strong></p>
-                            <div class="project-description">
-                                Built real-time scheduling application with comprehensive automated testing (Jest, Cypress). Implemented CI/CD integration ensuring security and reliability through rigorous testing. Demonstrates secure development lifecycle practices and deployment risk reduction through automated quality gates.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Technologies</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">React</span>
-                                    <span class="tool-tag">Jest</span>
-                                    <span class="tool-tag">Cypress</span>
-                                    <span class="tool-tag">CI/CD</span>
-                                </div>
-                            </div>
-                            <div class="project-link">
-                                <a href="https://github.com/VioletFigueroa/interview-scheduler">View on GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -1141,6 +932,11 @@
                         <h3>Systems &amp; Infrastructure</h3>
                         <p>Linux (Debian/Kali) system administration. Windows Server and macOS management. Active Directory and Azure AD. Endpoint security and EDR deployment across 30 endpoints. Docker containerization. Multi-platform endpoint security. Microsoft 365 and remote support tools.</p>
                     </div>
+
+                    <div class="skill-category" style="border-color: var(--color-accessibility-teal);">
+                        <h3 style="color: var(--color-accessibility-teal);">♿ Accessibility &amp; Inclusive Security</h3>
+                        <p><strong>First-in-industry accessibility integration:</strong> WCAG 2.1 AA+ compliant security documentation and procedures. Screen reader testing (JAWS, NVDA). Keyboard-accessible security controls. 100% assistive technology compatibility for MFA, EDR, and SIEM interfaces. Proper heading hierarchy, alt text for diagrams, 4.5:1+ contrast ratios. Designed accessible incident response procedures enabling full team participation. Demonstrated that security and accessibility reinforce each other.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1164,7 +960,7 @@
     <footer>
         <p>Violet Figueroa | CompTIA Security+ Certified Cybersecurity Analyst</p>
         <p>Incident Response • Digital Forensics • Vulnerability Management • Accessibility-Integrated Security</p>
-        <p style="margin-top: 1.5rem; font-size: 0.9rem;">Vancouver, BC, Canada (Remote-Ready) • <a href="mailto:violet@violetfigueroa.com">violet@violetfigueroa.com</a> • 604.220.5617</p>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem;">Vancouver, BC, Canada (Remote-Ready) • <a href="mailto:violet@violetfigueroa.com">violet@violetfigueroa.com</a></p>
     </footer>
 
     <script>
