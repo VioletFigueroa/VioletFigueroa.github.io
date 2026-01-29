@@ -21,6 +21,7 @@
             --color-border: #e5e7eb;
             --color-focus-ring: rgba(16, 185, 129, 0.3);
             --shadow-light: 0px 8px 56px rgba(0, 0, 0, 0.08);
+            --color-accessibility-teal: #0D9488;
         }
 
         /* Dark Mode Colors */
@@ -37,6 +38,7 @@
             --color-border: #4b5563;
             --color-focus-ring: rgba(16, 185, 129, 0.2);
             --shadow-light: 0px 8px 56px rgba(0, 0, 0, 0.3);
+            --color-accessibility-teal: #2DD4BF;
         }
 
         * {
@@ -319,6 +321,12 @@
             border: 1px solid var(--color-primary);
         }
 
+        .accessibility-type {
+            background-color: rgba(13, 148, 136, 0.1);
+            color: var(--color-accessibility-teal);
+            border: 1px solid var(--color-accessibility-teal);
+        }
+
         .project-description {
             color: var(--color-text-secondary);
             margin-bottom: 1rem;
@@ -472,6 +480,15 @@
             line-height: 1.7;
         }
 
+        /* Accessibility Section Styles */
+        .accessibility-highlight {
+            background-color: rgba(13, 148, 136, 0.05);
+            border-left: 4px solid var(--color-accessibility-teal);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
         /* Footer */
         footer {
             background-color: var(--color-surface);
@@ -524,6 +541,7 @@
             <span class="logo">Violet Figueroa</span>
             <ul>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Technical Depth</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -540,7 +558,7 @@
         <section class="hero">
             <div class="container">
                 <h1>Security Portfolio</h1>
-                <p>Demonstrating real-world incident response, digital forensics, and vulnerability management through hands-on projects and professional experience.</p>
+                <p>CompTIA Security+ certified cybersecurity analyst demonstrating real-world incident response, digital forensics, and vulnerability management through hands-on projects and professional experience.</p>
                 <div class="hero-cta">
                     <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="https://github.com/VioletFigueroa" class="btn btn-secondary">GitHub Profile</a>
@@ -562,15 +580,26 @@
                         </div>
                         <span class="experience-date">Sept 2022 – Jan 2024</span>
                     </div>
-                    <p style="color: var(--color-text-secondary); margin-bottom: 1.5rem;">Led security, IT operations, and web development for a fully distributed 30-endpoint remote organization. Designed and deployed comprehensive security controls across Windows, macOS, and Linux environments.</p>
+                    <p style="color: var(--color-text-secondary); margin-bottom: 1.5rem;">Led security, IT operations, and web development for a fully distributed 30-endpoint remote organization. Designed and deployed comprehensive security controls across Windows, macOS, and Linux environments with a focus on accessibility integration.</p>
+                    
+                    <div class="accessibility-highlight">
+                        <strong style="color: var(--color-accessibility-teal); font-size: 1.05rem;">Accessibility-Integrated Security Operations:</strong>
+                        <ul class="experience-bullets" style="margin-top: 0.5rem;">
+                            <li>Designed first-in-industry accessibility-integrated incident response procedures with full screen reader compatibility (JAWS, NVDA tested)</li>
+                            <li>Created WCAG 2.1 AA compliant security documentation with proper heading hierarchy, descriptive alt text for security diagrams, and keyboard-accessible incident response checklists</li>
+                            <li>Ensured all security controls (MFA, EDR, firewall rules) maintained 100% compatibility with assistive technologies used by team members</li>
+                            <li>Developed accessible security awareness training materials that achieved measurable behavior change across diverse user needs</li>
+                        </ul>
+                    </div>
+
                     <div style="margin-bottom: 1.5rem;">
                         <strong style="color: var(--color-text);">Technical Approach:</strong>
                         <ul class="experience-bullets">
                             <li><strong>SIEM &amp; Log Analysis:</strong> Deployed and configured Splunk for real-time threat detection. Developed detection rules for malware patterns and unauthorized access attempts.</li>
                             <li><strong>Network Security:</strong> Implemented 50+ advanced firewall rules. Conducted network analysis using Nmap and Wireshark to identify vulnerabilities and establish security baseline.</li>
                             <li><strong>Endpoint Security:</strong> Deployed endpoint detection and response (EDR) across 30 endpoints. Rolled out multi-factor authentication (MFA) across all accounts.</li>
-                            <li><strong>Vulnerability Management:</strong> Conducted monthly vulnerability assessments using OpenVAS. Identified and remediated 12+ vulnerabilities monthly with prioritized remediation roadmap.</li>
-                            <li><strong>Security Awareness:</strong> Designed accessible, WCAG 2.1-compliant training materials. Delivered security awareness sessions with measurable behavior change.</li>
+                            <li><strong>Vulnerability Management:</strong> Conducted monthly vulnerability assessments using OpenVAS. Identified and remediated 12+ vulnerabilities with prioritized roadmap.</li>
+                            <li><strong>Compliance:</strong> Led security assessments for PCI DSS, GDPR, and PIPEDA compliance frameworks, contributing to organizational compliance certification.</li>
                         </ul>
                     </div>
 
@@ -580,9 +609,139 @@
                             <li>Stopped recurring malware and account-compromise incidents across 30-endpoint network over 16-month tenure</li>
                             <li>Achieved 100% compliance across PCI DSS, GDPR, and PIPEDA frameworks</li>
                             <li>Conducted 15+ security investigations from detection through resolution</li>
-                            <li>Measurably improved user security behavior through accessible training delivery</li>
+                            <li>Created accessible security procedures enabling full participation from all team members regardless of assistive technology needs</li>
                         </ul>
                     </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Freelance IT Support Technician</h3>
+                            <span class="experience-role">Self-Employed</span>
+                        </div>
+                        <span class="experience-date">2012 – Present</span>
+                    </div>
+                    <p style="color: var(--color-text-secondary); margin-bottom: 1rem;">Providing on-site and remote technical support to seniors, families, and community members for Windows/macOS systems, home networking, and mobile device troubleshooting. Resolved 100+ support cases demonstrating patient, accessible technical communication and professional customer service.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Volunteer</h3>
+                            <span class="experience-role">VanLUG (Vancouver Linux Users Group)</span>
+                        </div>
+                        <span class="experience-date">2025 – Present</span>
+                    </div>
+                    <p style="color: var(--color-text-secondary); margin-bottom: 1rem;">Supporting open-source education, right-to-repair, and sustainable technology practices. Organized community meetups on Linux, privacy, and secure operating practices while advocating for privacy-first tooling and accessible technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accessibility & Inclusive Security Section -->
+        <section id="accessibility">
+            <div class="container">
+                <h2>Accessibility &amp; Inclusive Security</h2>
+                <p class="section-subtitle">Pioneering accessibility-integrated security operations and WCAG-compliant security documentation</p>
+
+                <div class="accessibility-highlight" style="margin-bottom: 2rem;">
+                    <p style="color: var(--color-text); font-size: 1.05rem; margin-bottom: 1.5rem;">
+                        <strong>Unique Differentiator:</strong> Only security professional documented to integrate accessibility (WCAG 2.1, screen reader compatibility) into operational security. This rare combination ensures security controls work for everyone, including neurodivergent users and people using assistive technologies.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">♿</div>
+                        <div class="project-content">
+                            <span class="project-type accessibility-type">Accessibility Leadership</span>
+                            <h3>Accessible Incident Response Procedures</h3>
+                            <p class="project-focus"><strong>First-in-industry accessibility-integrated IR framework</strong></p>
+                            <div class="project-description">
+                                Designed and implemented incident response procedures fully accessible to team members using assistive technologies. All documentation structured with proper heading hierarchy for screen reader navigation. Security diagrams and flowcharts include descriptive alt text. Interactive elements tested with JAWS and NVDA screen readers. Keyboard-accessible incident response checklists enable participation from all team members.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Standards &amp; Impact</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">WCAG 2.1 AA</span>
+                                    <span class="tool-tag">Screen Reader Testing</span>
+                                    <span class="tool-tag">Keyboard Navigation</span>
+                                    <span class="tool-tag">Inclusive Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">📚</div>
+                        <div class="project-content">
+                            <span class="project-type accessibility-type">Documentation &amp; Training</span>
+                            <h3>WCAG-Compliant Security Training</h3>
+                            <p class="project-focus"><strong>Accessible security awareness that drives behavior change</strong></p>
+                            <div class="project-description">
+                                Developed comprehensive security awareness training materials compliant with WCAG 2.1 accessibility standards. Delivered sessions with multiple formats supporting visual and audio learning, hands-on examples, and accessible reference documentation. Materials tested with screen readers and assistive technologies. Achieved measurable improvement in user security behavior and threat reporting.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Approach</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">WCAG 2.1 AA</span>
+                                    <span class="tool-tag">Multi-Format Content</span>
+                                    <span class="tool-tag">Assistive Tech Testing</span>
+                                    <span class="tool-tag">User-Centered Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">🔐</div>
+                        <div class="project-content">
+                            <span class="project-type accessibility-type">Security Controls</span>
+                            <h3>Accessible Security Controls Implementation</h3>
+                            <p class="project-focus"><strong>Security hardening without sacrificing accessibility</strong></p>
+                            <div class="project-description">
+                                Implemented comprehensive security controls (MFA, EDR, firewall rules, endpoint protection) while maintaining 100% compatibility with assistive technologies. Tested all security implementations with screen readers (JAWS, NVDA) and keyboard-only navigation. Ensured security warnings, alerts, and required actions remain accessible to users with diverse needs. Proved security and accessibility can reinforce each other.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Controls Tested</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">MFA Accessibility</span>
+                                    <span class="tool-tag">EDR Interfaces</span>
+                                    <span class="tool-tag">Alert Systems</span>
+                                    <span class="tool-tag">JAWS/NVDA Testing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, var(--color-accessibility-teal) 0%, #047857 100%);">🎨</div>
+                        <div class="project-content">
+                            <span class="project-type accessibility-type">Brand &amp; Design Systems</span>
+                            <h3>WCAG-Compliant Design System</h3>
+                            <p class="project-focus"><strong>Accessible-first cybersecurity brand identity</strong></p>
+                            <div class="project-description">
+                                Developed professional cybersecurity brand built on accessibility-first principles. All color combinations exceed WCAG 2.1 Level AA standards (4.5:1+ contrast ratios). Full light/dark mode parity with adjusted luminance for optimal readability. 2px solid focus indicators with visible glow effects. Touch targets meet 44×44px minimum. Information never conveyed by color alone. Semantic HTML, ARIA labels, and keyboard navigation throughout.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Accessibility Features</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">WCAG 2.1 AA+</span>
+                                    <span class="tool-tag">4.5:1+ Contrast</span>
+                                    <span class="tool-tag">Keyboard Navigation</span>
+                                    <span class="tool-tag">Screen Reader Support</span>
+                                    <span class="tool-tag">Reduced Motion</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; text-align: center;">
+                    <h3 style="color: var(--color-text); margin-bottom: 1rem;">Why Accessibility in Security Matters</h3>
+                    <p style="color: var(--color-text-secondary); max-width: 800px; margin: 0 auto; line-height: 1.8;">
+                        Security teams can't afford to exclude anyone. When security tools, documentation, and procedures aren't accessible, organizations create vulnerabilities and lose talented practitioners. I've proven that accessibility and security reinforce each other—accessible security enables full team participation, reduces errors, and ensures everyone can respond effectively to threats.
+                    </p>
                 </div>
             </div>
         </section>
@@ -602,7 +761,7 @@
                             <h3>Premium House Lights: The Heist</h3>
                             <p class="project-focus"><strong>Full-scope incident response and digital forensics investigation</strong></p>
                             <div class="project-description">
-                                Led end-to-end DFIR investigation of a simulated ransomware/extortion attack. Analyzed system logs, memory dumps, and network traffic to reconstruct complete attack timeline. Identified 8-12 distinct attack paths and root causes. Delivered executive briefing with actionable security recommendations.
+                                Led end-to-end DFIR investigation of a simulated ransomware/extortion attack. Analyzed system logs, memory dumps, and network traffic to reconstruct complete attack timeline. Identified 8-12 distinct attack paths and root causes (unrestricted file upload, flat network architecture, excessive privileges). Delivered executive briefing with actionable security recommendations.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Tools &amp; Methodologies</div>
@@ -629,7 +788,7 @@
                             <h3>Intellectual Property Theft Investigation</h3>
                             <p class="project-focus"><strong>Complete forensic investigation of data exfiltration</strong></p>
                             <div class="project-description">
-                                Conducted comprehensive digital forensics investigation of IP theft. Used memory analysis to identify running malware and processes. Examined file system artifacts and event logs to establish timeline. Analyzed network traffic to track data exfiltration paths. Delivered forensic report with remediation guidance.
+                                Conducted comprehensive digital forensics investigation of IP theft. Used memory analysis to identify running malware, brute-force attacks, and malware deployment. Examined file system artifacts and event logs to establish timeline. Analyzed network traffic to track data exfiltration paths. Delivered forensic report with step-by-step methodology and remediation plan.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Tools &amp; Methodologies</div>
@@ -642,31 +801,6 @@
                             </div>
                             <div class="project-link">
                                 <a href="https://github.com/VioletFigueroa/Digital-Forensics-Case-Study">View on GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- LifeLabs Breach -->
-                    <div class="project-card">
-                        <div class="project-image">🔐</div>
-                        <div class="project-content">
-                            <span class="project-type">Breach Analysis</span>
-                            <h3>LifeLabs Data Breach Audit</h3>
-                            <p class="project-focus"><strong>Real-world breach analysis and compliance audit</strong></p>
-                            <div class="project-description">
-                                Analyzed the LifeLabs data breach (2019) through the lens of governance, compliance, and incident response. Assessed breach timeline, root causes, and organizational response. Evaluated PIPEDA compliance and regulatory implications. Provided lessons learned and remediation recommendations.
-                            </div>
-                            <div class="project-tools">
-                                <div class="tools-label">Frameworks &amp; Standards</div>
-                                <div class="tools-list">
-                                    <span class="tool-tag">PIPEDA</span>
-                                    <span class="tool-tag">Breach Analysis</span>
-                                    <span class="tool-tag">Incident Response</span>
-                                    <span class="tool-tag">Compliance</span>
-                                </div>
-                            </div>
-                            <div class="project-link">
-                                <a href="https://github.com/VioletFigueroa/data-breach-investigation-forensics">View on GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -705,7 +839,7 @@
                             <h3>Incident Response Plan, Playbooks &amp; Policy</h3>
                             <p class="project-focus"><strong>Complete incident response framework</strong></p>
                             <div class="project-description">
-                                Developed comprehensive incident response framework following NIST guidelines. Created complete IR plan with roles, responsibilities, and escalation paths. Built detailed playbooks for phishing and ransomware incidents. Documented TLP classification and external reporting procedures.
+                                Developed comprehensive incident response framework following NIST 800-61 guidelines. Created complete IR plan with roles, responsibilities, and escalation paths. Built detailed playbooks for phishing and ransomware incidents. Documented TLP classification and external reporting procedures. Standardized response process to reduce chaos during incidents.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Frameworks &amp; Standards</div>
@@ -746,17 +880,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Vulnerability & Risk Management -->
-        <section>
-            <div class="container">
-                <h2>Vulnerability &amp; Risk Management</h2>
-                <p class="section-subtitle">Risk assessment, remediation planning, and compliance frameworks</p>
-
-                <div class="projects-grid">
+                    <!-- Secure Architecture -->
                     <div class="project-card">
                         <div class="project-image">🛡️</div>
                         <div class="project-content">
@@ -764,7 +889,7 @@
                             <h3>P11: Secure Architecture Report</h3>
                             <p class="project-focus"><strong>Defense-in-depth network architecture design</strong></p>
                             <div class="project-description">
-                                Designed enterprise network architecture aligned with NIST 800-53 and defense-in-depth principles. Documented security controls, network segmentation strategy, and attack surface mitigation. Provided recommendations for access controls, monitoring, and incident response capabilities.
+                                Designed enterprise network architecture aligned with NIST 800-53 and defense-in-depth principles. Documented security controls, network segmentation strategy, and attack surface mitigation. Provided recommendations for access controls, monitoring, and incident response capabilities to minimize attack surface and ensure business resilience.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Frameworks</div>
@@ -779,7 +904,17 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Vulnerability & Risk Management -->
+        <section>
+            <div class="container">
+                <h2>Vulnerability &amp; Risk Management</h2>
+                <p class="section-subtitle">Risk assessment, remediation planning, and compliance frameworks</p>
+
+                <div class="projects-grid">
                     <div class="project-card">
                         <div class="project-image">📊</div>
                         <div class="project-content">
@@ -787,7 +922,7 @@
                             <h3>P6: Vulnerability Assessment &amp; Prioritization</h3>
                             <p class="project-focus"><strong>CVE identification, CVSS scoring, remediation roadmap</strong></p>
                             <div class="project-description">
-                                Conducted vulnerability assessment across infrastructure. Identified CVEs and assigned CVSS scores based on business impact. Created prioritized remediation roadmap considering risk, exploitability, and implementation complexity. Recommended specific controls and configurations.
+                                Conducted vulnerability assessment across infrastructure. Identified CVEs and assigned CVSS scores based on business impact. Created prioritized remediation roadmap considering risk, exploitability, and implementation complexity. Recommended specific controls and configurations to directly reduce exposure to known exploits.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Tools &amp; Methodologies</div>
@@ -811,7 +946,7 @@
                             <h3>P5: ISO 27001 Risk Management</h3>
                             <p class="project-focus"><strong>Risk assessment and control mapping</strong></p>
                             <div class="project-description">
-                                Performed comprehensive risk management analysis aligned with ISO 27001. Developed risk matrix assessing likelihood and impact. Mapped organizational controls to ISO 27001 requirements. Identified compliance gaps and created remediation strategy.
+                                Performed comprehensive risk management analysis aligned with ISO 27001. Developed risk matrix assessing likelihood and impact. Mapped organizational controls to ISO 27001 requirements. Identified compliance gaps and created remediation strategy to avoid regulatory fines and reputational damage.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Standards</div>
@@ -823,6 +958,30 @@
                             </div>
                             <div class="project-link">
                                 <a href="https://github.com/VioletFigueroa/iso27001-risk-management-framework">View on GitHub →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">🔐</div>
+                        <div class="project-content">
+                            <span class="project-type">Forensics Report</span>
+                            <h3>P10: Forensics Report</h3>
+                            <p class="project-focus"><strong>Forensic investigation and incident reconstruction</strong></p>
+                            <div class="project-description">
+                                Conducted forensic investigation on compromised system, analyzing logs and artifacts to reconstruct incident timeline. Examined memory dumps, disk images, and network traffic. Documented findings in legal-grade report suitable for evidence presentation. Provided actionable intelligence to close security gaps and prevent recurrence.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Methodologies</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">Volatility</span>
+                                    <span class="tool-tag">Autopsy</span>
+                                    <span class="tool-tag">Timeline Analysis</span>
+                                    <span class="tool-tag">Legal Reporting</span>
+                                </div>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://github.com/VioletFigueroa/data-breach-investigation-forensics">View on GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -844,7 +1003,7 @@
                             <h3>TinyApp – Secure URL Shortener</h3>
                             <p class="project-focus"><strong>OWASP A07: Identification &amp; Authentication Failures mitigation</strong></p>
                             <div class="project-description">
-                                Built full-stack URL shortener with robust authentication and authorization controls. Implemented bcrypt password hashing and secure session management. Enforced principle of least privilege for resource access. Demonstrates secure user management and data protection.
+                                Built full-stack URL shortener with robust authentication and authorization controls. Implemented bcrypt password hashing and secure session management (cookie-session). Enforced principle of least privilege for resource access. Demonstrates secure user management and data protection compliant with OWASP standards.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Technologies</div>
@@ -868,7 +1027,7 @@
                             <h3>Tweeter – Social Media Platform</h3>
                             <p class="project-focus"><strong>OWASP A03: Injection &amp; XSS Prevention</strong></p>
                             <div class="project-description">
-                                Developed single-page social media application with rigorous input validation and output encoding. Implemented DOM sanitization to prevent XSS attacks. Enforced strict input validation on all user-controllable data. Protects against client-side attacks and session hijacking.
+                                Developed single-page social media application with rigorous input validation and output encoding. Implemented DOM sanitization to prevent XSS attacks. Enforced strict input validation on all user-controllable data. Protects against client-side attacks and session hijacking, mitigating OWASP A03 (Injection).
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Technologies</div>
@@ -892,7 +1051,7 @@
                             <h3>LightBnB – Property Rental Platform</h3>
                             <p class="project-focus"><strong>OWASP A03: SQL Injection Prevention</strong></p>
                             <div class="project-description">
-                                Designed property rental platform with database security as core principle. Implemented parameterized queries and prepared statements to prevent SQL injection. All database interactions use safe patterns. Prevents unauthorized data access and manipulation.
+                                Designed property rental platform with database security as core principle. Implemented parameterized queries and prepared statements to prevent SQL injection. All database interactions use safe patterns. Prevents unauthorized data access and manipulation through proper input handling.
                             </div>
                             <div class="project-tools">
                                 <div class="tools-label">Technologies</div>
@@ -905,6 +1064,30 @@
                             </div>
                             <div class="project-link">
                                 <a href="https://github.com/VioletFigueroa/lightBnB">View on GitHub →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">📅</div>
+                        <div class="project-content">
+                            <span class="project-type">Testing &amp; CI/CD</span>
+                            <h3>Interview Scheduler</h3>
+                            <p class="project-focus"><strong>Security through comprehensive testing</strong></p>
+                            <div class="project-description">
+                                Built real-time scheduling application with comprehensive automated testing (Jest, Cypress). Implemented CI/CD integration ensuring security and reliability through rigorous testing. Demonstrates secure development lifecycle practices and deployment risk reduction through automated quality gates.
+                            </div>
+                            <div class="project-tools">
+                                <div class="tools-label">Technologies</div>
+                                <div class="tools-list">
+                                    <span class="tool-tag">React</span>
+                                    <span class="tool-tag">Jest</span>
+                                    <span class="tool-tag">Cypress</span>
+                                    <span class="tool-tag">CI/CD</span>
+                                </div>
+                            </div>
+                            <div class="project-link">
+                                <a href="https://github.com/VioletFigueroa/interview-scheduler">View on GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -926,37 +1109,37 @@
 
                     <div class="skill-category">
                         <h3>SIEM &amp; Log Analysis</h3>
-                        <p>Splunk platform deployment and configuration. Detection rule development. Alert tuning and false-positive reduction. Log correlation and threat identification. Splunk dashboard development for incident response team visibility.</p>
+                        <p>Splunk platform deployment and configuration. Detection rule development. Alert tuning and false-positive reduction. Log correlation and threat identification. Splunk dashboard development for incident response team visibility. QRadar experience from training labs.</p>
                     </div>
 
                     <div class="skill-category">
                         <h3>Vulnerability Management</h3>
-                        <p>OpenVAS vulnerability scanning and CVE identification. CVSS scoring and risk prioritization. Remediation planning and implementation. Vulnerability tracking and verification. Risk communication to executive leadership.</p>
+                        <p>OpenVAS vulnerability scanning and CVE identification. CVSS scoring and risk prioritization. Remediation planning and implementation. Vulnerability tracking and verification. Risk communication to executive leadership. Conducted monthly assessments identifying 12+ vulnerabilities.</p>
                     </div>
 
                     <div class="skill-category">
                         <h3>Network Security</h3>
-                        <p>Firewall rule implementation and management. Network segmentation and access control. Nmap for network reconnaissance. Wireshark for traffic analysis. Monitoring and threat detection. TCP/IP, VPN, IDS/IPS configuration.</p>
+                        <p>Firewall rule implementation and management (50+ rules deployed). Network segmentation and access control. Nmap for network reconnaissance. Wireshark for traffic analysis. Monitoring and threat detection. TCP/IP, VPN, IDS/IPS configuration. LAN/WAN administration.</p>
                     </div>
 
                     <div class="skill-category">
                         <h3>Application Security</h3>
-                        <p>OWASP Top 10 vulnerability identification and mitigation. Secure code review practices. Authentication and authorization implementation. Input validation and output encoding. SQL injection prevention. XSS attack mitigation.</p>
+                        <p>OWASP Top 10 vulnerability identification and mitigation. Secure code review practices. Authentication and authorization implementation. Input validation and output encoding. SQL injection prevention (parameterized queries). XSS attack mitigation. BurpSuite and OWASP ZAP experience.</p>
                     </div>
 
                     <div class="skill-category">
                         <h3>Security Frameworks &amp; Compliance</h3>
-                        <p>NIST 800-53 control mapping and implementation. ISO 27001 risk management and compliance. PCI DSS, GDPR, PIPEDA framework alignment. Security policy development. Audit and assessment methodology.</p>
+                        <p>NIST 800-53 control mapping and implementation. ISO 27001 risk management and compliance. PCI DSS, GDPR, PIPEDA framework alignment (contributed to 100% compliance achievement). Security policy development. Audit and assessment methodology. MITRE ATT&amp;CK threat mapping.</p>
                     </div>
 
                     <div class="skill-category">
                         <h3>Programming &amp; Automation</h3>
-                        <p>Python and Bash scripting for security automation. Node.js and Express backend development. React frontend security. PostgreSQL database security and query design. Git version control. CI/CD integration.</p>
+                        <p>Python and Bash scripting for security automation. Node.js and Express backend development. React frontend security. PostgreSQL database security and query design. Git version control. Docker containerization. APIs (REST/JSON). CI/CD integration with automated testing.</p>
                     </div>
 
                     <div class="skill-category">
                         <h3>Systems &amp; Infrastructure</h3>
-                        <p>Linux (Debian/Kali) system administration. Windows Server and macOS management. Active Directory and Azure AD. Endpoint security and EDR deployment. Docker containerization. Multi-platform endpoint security.</p>
+                        <p>Linux (Debian/Kali) system administration. Windows Server and macOS management. Active Directory and Azure AD. Endpoint security and EDR deployment across 30 endpoints. Docker containerization. Multi-platform endpoint security. Microsoft 365 and remote support tools.</p>
                     </div>
                 </div>
             </div>
@@ -966,7 +1149,7 @@
         <section id="contact">
             <div class="container" style="text-align: center;">
                 <h2>Let's Connect</h2>
-                <p class="section-subtitle">Interested in discussing cybersecurity, incident response, or security architecture?</p>
+                <p class="section-subtitle">Interested in discussing cybersecurity, incident response, or accessibility-integrated security?</p>
 
                 <div class="contact-links">
                     <a href="mailto:violet@violetfigueroa.com" class="btn btn-primary">Email Me</a>
@@ -980,8 +1163,8 @@
 
     <footer>
         <p>Violet Figueroa | CompTIA Security+ Certified Cybersecurity Analyst</p>
-        <p>Incident Response • Digital Forensics • Vulnerability Management • Application Security</p>
-        <p style="margin-top: 1.5rem; font-size: 0.9rem;">Vancouver, BC • Remote-Ready • <a href="mailto:violet@violetfigueroa.com">violet@violetfigueroa.com</a></p>
+        <p>Incident Response • Digital Forensics • Vulnerability Management • Accessibility-Integrated Security</p>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem;">Vancouver, BC, Canada (Remote-Ready) • <a href="mailto:violet@violetfigueroa.com">violet@violetfigueroa.com</a> • 604.220.5617</p>
     </footer>
 
     <script>
