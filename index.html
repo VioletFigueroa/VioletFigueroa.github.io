@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Figueroa | Cybersecurity Analyst | Portfolio</title>
+    <meta name="description" content="Cybersecurity Analyst specializing in Incident Response, Digital Forensics, and Application Security. CompTIA Security+ and ISC2 CC certified.">
+    <meta name="keywords" content="cybersecurity, incident response, digital forensics, security analyst, penetration testing">
+    <meta name="author" content="Violet Figueroa">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://violetfigueroa.github.io/">
+    <meta property="og:title" content="Violet Figueroa | Cybersecurity Analyst">
+    <meta property="og:description" content="Cybersecurity portfolio showcasing incident response, digital forensics, and application security expertise.">
+    
+    <style>
+        /* CSS Variables - Brand Colors from Hugo Theme */
+        :root {
+            /* Light Mode - Main Colors */
+            --text-primary: #1f2937;
+            --text-secondary: #4b5563;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f7ff; /* Very pale violet tint */
+            --primary-color: #7c3aed; /* Darker Violet */
+            --secondary-color: #7393e1; /* Cornflower Blue */
+            --link-color: #7c3aed;
+            
+            /* Brand Palette */
+            --brand-blue: #7393e1;
+            --brand-periwinkle: #aeaaf5;
+            --brand-violet: #d6b4fc;
+            --brand-pink: #f0bef1;
+            --brand-pale-pink: #fad3de;
+            
+            /* Accent Colors */
+            --accent-red: #dc2626;
+            --accent-amber: #d97706;
+            --accent-teal: #0d9488;
+            
+            /* UI Elements */
+            --border-color: #e5e7eb;
+            --shadow: 0 8px 24px rgba(124, 58, 237, 0.15);
+            --shadow-hover: 0 12px 32px rgba(124, 58, 237, 0.25);
+        }
+        
+        /* Dark Mode Colors */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-primary: #f9fafb;
+                --text-secondary: #d1d5db;
+                --bg-primary: #111827;
+                --bg-secondary: #1f2937;
+                --primary-color: #d6b4fc; /* Brand Violet */
+                --secondary-color: #aeaaf5; /* Periwinkle */
+                --link-color: #d6b4fc;
+                
+                --accent-red: #f87171;
+                --accent-amber: #fbbf24;
+                --accent-teal: #2dd4bf;
+                
+                --border-color: #374151;
+                --shadow: 0 8px 24px rgba(214, 180, 252, 0.2);
+                --shadow-hover: 0 12px 32px rgba(214, 180, 252, 0.3);
+            }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        
+        /* Header / Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--brand-violet) 0%, var(--brand-periwinkle) 50%, var(--brand-blue) 100%);
+            padding: 80px 20px 60px;
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .hero > * {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            color: #ffffff;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero .subtitle {
+            font-size: 1.4em;
+            color: #ffffff;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero .tagline {
+            font-size: 1.1em;
+            color: #ffffff;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+        }
+        
+        section h2 {
+            font-size: 2.2em;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 15px;
+        }
+        
+        section h3 {
+            font-size: 1.6em;
+            color: var(--secondary-color);
+            margin: 30px 0 20px;
+        }
+        
+        /* Badge Styles */
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .badge-section {
+            margin: 25px 0;
+        }
+        
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0;
+        }
+        
+        .badges img,
+        .badge-row img {
+            height: 28px;
+            transition: transform 0.2s;
+        }
+        
+        .badges img:hover,
+        .badge-row img:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Download Section */
+        .download-section {
+            background: var(--bg-secondary);
+            border: 2px solid var(--primary-color);
+            border-radius: 12px;
+            padding: 40px;
+            margin: 40px auto;
+            max-width: 800px;
+            box-shadow: var(--shadow);
+        }
+        
+        .download-section h3 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+        }
+        
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .download-card {
+            background: var(--bg-primary);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .download-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .download-card h4 {
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        
+        .download-btn:hover {
+            background: var(--secondary-color);
+            transform: scale(1.05);
+            box-shadow: var(--shadow);
+        }
+        
+        .download-btn:active {
+            transform: scale(0.98);
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            background: var(--bg-secondary);
+            border: 2px solid var(--secondary-color);
+            border-radius: 12px;
+            padding: 40px;
+            margin: 40px auto;
+            max-width: 800px;
+            box-shadow: var(--shadow);
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .contact-item a {
+            color: var(--link-color);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+        
+        .contact-item a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--bg-secondary);
+            border-top: 3px solid var(--primary-color);
+            padding: 30px 20px;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+        
+        footer p {
+            margin: 10px 0;
+        }
+        
+        footer a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Lists */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin: 12px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        li:before {
+            content: "▸";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        /* About section paragraph */
+        .about-text {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+        
+        /* Projects link */
+        .projects-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .projects-link a {
+            color: var(--link-color);
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .projects-link a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.1em;
+            }
+            
+            section h2 {
+                font-size: 1.8em;
+            }
+            
+            .download-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Scroll Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        section {
+            animation: fadeInUp 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>🛡️ Violet Figueroa</h1>
+            <p class="subtitle">Cybersecurity Analyst | Incident Response | Digital Forensics</p>
+            <p class="tagline">✓ Interview Ready | ✓ Security+ Certified | ✓ ISC2 CC Certified</p>
+            
+            <!-- Certification Badges -->
+            <div class="badges">
+                <a href="https://www.comptia.org/certifications/security" target="_blank">
+                    <img src="https://img.shields.io/badge/CompTIA_Security%2B-Certified-FF0000?style=for-the-badge&logo=comptia&logoColor=white" alt="CompTIA Security+">
+                </a>
+                <a href="https://www.isc2.org/certifications/cc" target="_blank">
+                    <img src="https://img.shields.io/badge/ISC2_CC-Certified-00A86B?style=for-the-badge&logo=isc2&logoColor=white" alt="ISC2 CC">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>🛡️ About Me</h2>
+            <p class="about-text">
+                Entry-level cybersecurity professional with hands-on experience in incident response, digital forensics, 
+                and application security. Passionate about protecting organizations from cyber threats through proactive 
+                security measures and thorough incident investigation. Committed to continuous learning and staying current 
+                with emerging security trends and technologies.
+            </p>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>🔧 Technical Expertise</h2>
+            
+            <div class="badge-section">
+                <h3>Security & Forensics</h3>
+                <div class="badge-row">
+                    <img src="https://img.shields.io/badge/Incident_Response-Critical-dc2626?style=flat-square&logo=security&logoColor=white" alt="Incident Response">
+                    <img src="https://img.shields.io/badge/Digital_Forensics-Expert-7393e1?style=flat-square&logo=magnifying-glass&logoColor=white" alt="Digital Forensics">
+                    <img src="https://img.shields.io/badge/Threat_Analysis-Advanced-7c3aed?style=flat-square&logo=threatpost&logoColor=white" alt="Threat Analysis">
+                    <img src="https://img.shields.io/badge/Malware_Analysis-Proficient-d97706?style=flat-square&logo=virus&logoColor=white" alt="Malware Analysis">
+                </div>
+            </div>
+            
+            <div class="badge-section">
+                <h3>Security Tools & Platforms</h3>
+                <div class="badge-row">
+                    <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" alt="Splunk">
+                    <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark">
+                    <img src="https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit">
+                    <img src="https://img.shields.io/badge/Nmap-4682B4?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
+                    <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burp-suite&logoColor=white" alt="Burp Suite">
+                </div>
+            </div>
+            
+            <div class="badge-section">
+                <h3>Operating Systems</h3>
+                <div class="badge-row">
+                    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+                    <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
+                    <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
+                    <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS">
+                </div>
+            </div>
+            
+            <div class="badge-section">
+                <h3>Programming & Scripting</h3>
+                <div class="badge-row">
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+                    <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+                    <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
+                    <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL">
+                </div>
+            </div>
+            
+            <div class="badge-section">
+                <h3>Development & Version Control</h3>
+                <div class="badge-row">
+                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+                    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+                    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Download Section -->
+        <section id="downloads">
+            <div class="download-section">
+                <h3>📥 Download Resume & Cover Letters</h3>
+                <p style="text-align: center; margin-bottom: 25px; color: var(--text-secondary);">
+                    Access my latest resume and tailored cover letters for different cybersecurity roles
+                </p>
+                
+                <div class="download-grid">
+                    <div class="download-card">
+                        <h4>📄 Resume</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                            Current resume (Updated January 2026)
+                        </p>
+                        <a href="./assets/resume/Violet-Figueroa-Resume.pdf" class="download-btn" download>
+                            Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="download-card">
+                        <h4>📝 General Cover Letter</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                            Cybersecurity Analyst role
+                        </p>
+                        <a href="./assets/cover-letters/Violet-Figueroa-Cover-Letter-General.pdf" class="download-btn" download>
+                            Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="download-card">
+                        <h4>🔒 Security Engineer</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                            Tailored for Security Engineer positions
+                        </p>
+                        <a href="./assets/cover-letters/Violet-Figueroa-Security-Engineer-Cover-Letter.pdf" class="download-btn" download>
+                            Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="download-card">
+                        <h4>🛡️ Threat Analyst</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                            Tailored for Threat Analyst roles
+                        </p>
+                        <a href="./assets/cover-letters/Violet-Figueroa-Threat-Analyst-Cover-Letter.pdf" class="download-btn" download>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-section">
+                <h2 style="border: none;">📫 Contact Information</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:hello@violetfigueroa.com">hello@violetfigueroa.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>💼</span>
+                        <a href="https://linkedin.com/in/violetfigueroa" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>🐙</span>
+                        <a href="https://github.com/VioletFigueroa" target="_blank">GitHub Projects</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>📂</span>
+                        <a href="https://github.com/VioletFigueroa?tab=repositories" target="_blank">All Repositories</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Projects Highlight -->
+        <section id="projects">
+            <h2>📂 Featured Portfolio Projects</h2>
+            <ul style="max-width: 800px; margin: 0 auto;">
+                <li><strong>Incident Response & Forensics:</strong> Real-world investigation scenarios with detailed documentation</li>
+                <li><strong>Application Security Testing:</strong> OWASP Top 10 vulnerability assessments and remediation</li>
+                <li><strong>Network Security Analysis:</strong> Packet capture analysis and threat detection</li>
+                <li><strong>Security Automation:</strong> Python scripts for security operations and analysis</li>
+                <li><strong>Vulnerability Assessment:</strong> Comprehensive security testing and reporting</li>
+            </ul>
+            <p class="projects-link">
+                <a href="https://github.com/VioletFigueroa?tab=repositories" target="_blank">
+                    View All Projects on GitHub →
+                </a>
+            </p>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p><strong>Latest Update:</strong> January 2026 | <strong>Interview Ready:</strong> Yes ✓</p>
+        <p style="margin-top: 15px;">
+            Built with ❤️ by Violet Figueroa | 
+            <a href="https://github.com/VioletFigueroa/VioletFigueroa.github.io">View Source Code</a>
+        </p>
+        <p style="font-size: 0.9em; margin-top: 10px; color: var(--text-secondary);">
+            © 2026 Violet Figueroa. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
