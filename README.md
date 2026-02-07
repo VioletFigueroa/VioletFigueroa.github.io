@@ -200,7 +200,6 @@ Then update DNS records at your domain registrar (see [GitHub Pages documentatio
 ## 📧 Contact & Questions
 
 - **Email:** violet@violetfigueroa.com
-- **Phone:** 604.220.5617
 - **LinkedIn:** [linkedin.com/in/violet-figueroa](https://www.linkedin.com/in/violet-figueroa/)
 - **GitHub:** [github.com/VioletFigueroa](https://github.com/VioletFigueroa)
 
