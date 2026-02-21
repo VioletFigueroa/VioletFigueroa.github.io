@@ -6,7 +6,7 @@ Welcome to the source repository for my GitHub Pages security portfolio site dep
 
 This repository contains the HTML/CSS/JavaScript source for my professional cybersecurity portfolio. It showcases:
 
-- **Real-world incident response & digital forensics projects**
+- **Lab-based incident response & digital forensics projects**
 - **Vulnerability assessment & risk management case studies**
 - **Application security (OWASP Top 10) demonstrations**
 - **Network security & infrastructure analysis work**
@@ -205,8 +205,8 @@ Then update DNS records at your domain registrar (see [GitHub Pages documentatio
 
 ---
 
-**Last Updated:** January 28, 2026
+**Last Updated:** February 20, 2026
 
 **Interview Ready:** Yes ✓
 
-*Passionate about making cybersecurity more accessible, sustainable, and inclusive. This portfolio demonstrates real-world security expertise through hands-on projects and professional experience.*
+*Passionate about making cybersecurity more accessible, sustainable, and inclusive. This portfolio showcases security skills through bootcamp projects, coursework, and professional experience.*
